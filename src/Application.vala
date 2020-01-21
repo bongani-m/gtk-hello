@@ -19,7 +19,9 @@ public class MyApp: Gtk.Application {
             main_window.title = "Button, clicked";
         });
         
+        var label = new Gtk.Label("Hello, Again World!");
         main_window.add(button_hello);
+        // main_window.add(label);
         main_window.show_all ();
     }
     
