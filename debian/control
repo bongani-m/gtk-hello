@@ -1,0 +1,16 @@
+Source: com.github.bongani-m.gtk-hello
+Section: x11
+Priority: extra
+Maintainer: Bongani Mbigi <bongani@utexas.edu>
+Build-Depends: debhelper (>= 10.5.1),
+               gettext,
+               libgtk-3-dev (>= 3.10),
+               meson,
+               valac (>= 0.28.0)
+Standards-Version: 4.1.1
+
+Package: com.github.bongani-m.gtk-hello
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Hey young world
+ This is a Hello World written in Vala using Meson build system.
