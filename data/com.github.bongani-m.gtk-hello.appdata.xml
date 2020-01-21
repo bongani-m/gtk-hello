@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2019 Bongani Mbigi <bongani@utexas.edu> -->
+<component type="desktop">
+  <id>com.github.bongani-m.gtk-hello</id>
+  <metadata_license>CC0</metadata_license>
+  <name>Hello, World!</name>
+  <summary>A Simple Hello, World App</summary>
+  <description>
+    <p>This is a simple hello, world application.</p>
+  </description>
+    <custom>
+     <value key="x-appcenter-color-primary">#603461</value>
+     <value key="x-appcenter-color-primary-text">rgb(255, 255, 255)</value>
+     <value key="x-appcenter-suggested-price">5</value>
+  </custom>
+</component>
